@@ -3,13 +3,13 @@ import haxe.macro.Expr;
 
 class TestCrc32
 {
-    static function main()
+	static function main()
 	{
-        neko.Lib.print("TestCrc32\n");
+		neko.Lib.print("TestCrc32\n");
 
 		printInt32AsHex( crcA() );
 		printInt32AsHex( TestCrc32.macroA() );
-    }
+	}
 
 	static function crcA():Int32
 	{
