@@ -1,0 +1,4 @@
+-main TestCrc32
+-neko TestCrc32.n
+-cp src
+
